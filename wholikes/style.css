@@ -1,0 +1,35 @@
+#card {
+        margin: auto;
+        width: 50%;
+        border: 2px solid rgb(143, 148, 156);
+        border-radius: 15px;
+        padding: 10px;
+      }
+
+.post {
+    margin: auto;
+    width: 99%;
+    padding: 5px;
+}
+
+#button-like {
+    background-color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+#button-dislike {
+    background-color: #ffff;
+    border: none;
+    cursor: pointer;
+    rotate: 180deg;
+}
+
+.likes {
+    width: 50px;
+    transition: transform .1s;
+}
+
+.likes:hover {
+    transform: scale(1.0);
+}
